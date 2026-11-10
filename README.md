@@ -11,7 +11,7 @@ pip install confluent-kafka
 
 2. **Start the Docker**:
 ```bash
-compose -f 'docker-compose.yaml' up -d --build 'kafka'
+docker compose -f docker-compose.yaml up -d kafka
 ```
 
 3. **Run the Producer and Tracker**:
